@@ -10,7 +10,7 @@ class Application(Tk):
     def __init__(self):
         super().__init__()
         self.title('Calculator')
-        self.iconbitmap(r'ICON.ico') 
+        self.iconbitmap(r'favicon.ico') 
         self.config(bg='Black')
 
         self.geometry("352x505")
